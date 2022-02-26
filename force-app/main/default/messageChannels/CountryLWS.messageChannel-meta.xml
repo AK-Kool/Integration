@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Conutry Selected</masterLabel>
+    <isExposed>true</isExposed>
+    <description>Message Channel to pass a record Id</description>
+    <lightningMessageFields>
+        <fieldName>countryName</fieldName>
+        <description>This is the Conutry Name that changed</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>statesLMS</fieldName>
+        <description>This is the Conutry Name that changed</description>
+    </lightningMessageFields>
+</LightningMessageChannel>
